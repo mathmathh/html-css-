@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(169, 244, 219);
+    width: 20vw;
+    height: 69vh;
+}
+
+header{
+    background-color: rgb(180, 210, 237);
+    width: 80vw;
+    height: 20vh;
+}
+
+
+footer{
+    background-color: rgb(181, 181, 244);
+    width: 80vw;
+    height: 15vh;
+}
+
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: 65vh;
+}
+
+
+.section1{
+    background-color: rgb(182, 255, 255);
+    width: 40vw;
+    border: 1px solid;
+}
+
+.section2{
+    background-color: rgb(182, 255, 255);
+    width: 40vw;
+    border: 1px solid;
+}
+body{
+    display: flex;
+}
+
+.flexN{
+    direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.img1{
+    width: 8vw;
+    height: 12vh;
+}
+.img2{
+    width: 8vw;
+    height: 12vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divs1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.divs2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
